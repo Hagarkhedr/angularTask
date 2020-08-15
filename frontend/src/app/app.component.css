@@ -1,0 +1,15 @@
+.nav li 
+{
+    text-decoration: none;
+}
+.nav 
+{
+    list-style-type: none;
+    float: right;
+    margin-right: 3vw;
+
+}
+.login 
+{
+    text-decoration: none;
+}

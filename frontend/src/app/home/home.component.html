@@ -1,0 +1,17 @@
+
+<ul *ngIf='posts' class="posts-list">
+    <li *ngFor="let post of posts" class='post-item'>
+        <mat-card class="post-card">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title>{{ post.title }}</mat-card-title>
+              <mat-card-subtitle>User ID:  {{post.userId}}</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+              <p> {{ post.body }} </p>
+            </mat-card-content>
+          </mat-card>
+
+    </li>
+
+</ul>
